@@ -5,7 +5,7 @@ public class Program {
 		// TODO Auto-generated method stub
 		
 		int a = 10; //data member
-		String s= "my name is Tom";
+		String s= "my name is Thomas";
 		System.out.println(s);
 		
 		//Syntax: className obj = new ClassName();
