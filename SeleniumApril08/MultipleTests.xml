@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<groups>
+  		<run>
+  			<include name="High_Priority"/>
+  			<include name="release specific"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="day9.MultipleTestCases"/>
+      <class name="day9.Testing_groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
